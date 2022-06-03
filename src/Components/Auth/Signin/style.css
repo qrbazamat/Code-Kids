@@ -1,0 +1,14 @@
+.remember-forget {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.remember-forget label {
+	user-select: none;
+	cursor: pointer;
+}
+
+#remember {
+    margin-right: 5px;
+}

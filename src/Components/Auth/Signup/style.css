@@ -1,0 +1,29 @@
+.auth-panel.sign-up {
+    width: 52%;
+}
+
+.auth-panel.sign-up form p.line-circle {
+    border: var(--auth-border);
+    border-radius: 50%;
+    margin-top: 6px;
+}
+
+.auth-panel.sign-up .or-self-sign {
+    width: 100%;
+}
+
+.auth-panel.sign-up .form-sign-up {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.auth-panel.sign-up .form-sign-up > .my-col {
+    width: calc(50% - 10px);
+}
+
+.auth-panel.sign-up .form-sign-up > .my-col input,
+.auth-panel.sign-up .form-sign-up > .my-col select {
+    padding: 4px;
+    font-size: 15px;
+}

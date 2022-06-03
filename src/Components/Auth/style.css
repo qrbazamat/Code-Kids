@@ -1,0 +1,111 @@
+:root {
+	--auth-border: 1px solid #c1c1c1;
+	--auth-radius: 10px;
+}
+
+.auth-panel {
+	width: 50%;
+	height: calc(100% - 176px);
+	padding: 0 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.auth-panel a {
+	text-decoration: none;
+}
+
+.auth-panel a:hover {
+	text-decoration: underline;
+}
+
+.auth-panel h2{
+	text-transform: uppercase;
+}
+
+.with-google {
+	width: 100%;
+	border-radius: var(--auth-radius);
+	padding: 8px 0;
+	background-color: transparent;
+	border: var(--auth-border);
+	margin: 20px 0 10px 0;
+}
+
+.with-google:hover {
+	color: black;
+}
+
+.icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.google-icon {
+	background-image: url('../../img/icons/google-icon.png');
+	background-size: 100% 100%;
+	margin-right: 10px;
+}
+
+.or-self-sign {
+	text-align: center;
+	position: relative;
+	margin: 12px 0;
+}
+
+.or-self-sign:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	border-top: var(--auth-border);
+	left: 0;
+	top: 50%;
+}
+
+.or-self-sign p {
+	display: inline-block;
+	background-color: #ffffff;
+	position: relative;
+	z-index: 1;
+	margin: 0;
+	padding: 8px;
+}
+
+.auth-panel form input:not([type=checkbox]),
+.auth-panel form select {
+	width: 100%;
+	border: var(--auth-border);
+	padding: 8px;
+	border-radius: var(--auth-radius);
+	margin: 6px 0 20px 0;
+}
+
+.auth-panel form label span {
+	color: red;
+}
+
+.login-button {
+	width: 100%;
+	border-radius: var(--auth-radius);
+	padding: 5px 0;
+	background-color: #F4CA16F0;
+	box-shadow: 0 0 8px #A1A1A1AA;
+	border: unset;
+	margin: 10px 0;
+	font-weight: 500;
+	font-size: 20px;
+	color: #414141;
+}
+.login-button:hover{
+	color: black;
+}
+.create-profile {
+	margin-top: 10px;
+}
+.create-profile a {
+	margin-left: 5px;
+	font-weight: 600;
+}
